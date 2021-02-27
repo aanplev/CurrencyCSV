@@ -1,0 +1,20 @@
+{
+    "name": "anplev/logs",
+    "description": "For logging",
+    "type": "package",
+    "require": {
+        "guzzlehttp/guzzle": "^5.3.3|^6.2.1|^7.0",
+      "ext-mbstring": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Logs\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "aanplev",
+            "email": "x.anplev@gmail.com"
+        }
+    ]
+}
